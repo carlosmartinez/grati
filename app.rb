@@ -9,6 +9,8 @@ class App
     end
   end
 
+  private
+
   def num_days
     (ARGV[0] || 1).to_i
   end
